@@ -1,14 +1,18 @@
 #### Question/need:
 * What is the framing question of your analysis, or the purpose of the model/system you plan to build? 
-To anazlyse the where is the most unvaccined areas that uses the subway and propose a solution to uplift the number of vaccines in these areas.
+
+To anazlyse where is the most unvaccined areas and crowded areas that uses the subway and propose a solution to uplift the number of vaccines in these areas.
 
 * Who benefits from exploring this question or building this model/system?
-The 
+The intention behind this project is to analyze the low vacccinted areas with crowded subways.
+The benfits behind this 
 
 #### Data Description:
 * What dataset(s) do you plan to use, and how will you obtain the data?
-This project will use the publically available MTA Turnstile data located at http://web.mta.info/developers/turnstile.html,
-and public nychealth Covid-19 data found at https://github.com/nychealth/coronavirus-data/.
+Datasets:
+
+MTA Turnstile data located at http://web.mta.info/developers/turnstile.html,
+and public nychealth Covid-19 vaccine data found at https://github.com/nychealth/covid-vaccine-data.
 
 
 * What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with? 
