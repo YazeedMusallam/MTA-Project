@@ -3,9 +3,14 @@
 To anazlyse the where is the most unvaccined areas that uses the subway and propose a solution to uplift the number of vaccines in these areas.
 
 * Who benefits from exploring this question or building this model/system?
+The 
 
 #### Data Description:
 * What dataset(s) do you plan to use, and how will you obtain the data?
+This project will use the publically available MTA Turnstile data located at http://web.mta.info/developers/turnstile.html,
+and public nychealth Covid-19 data found at https://github.com/nychealth/coronavirus-data/.
+
+
 * What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with? 
 * If modeling, what will you predict as your target?
 
