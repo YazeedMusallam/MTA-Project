@@ -1,5 +1,5 @@
 ## Back story of the project:
-The ultimate goal of the ministry of health is to end the pandemic as soon as possible. This can be achieved by a Massive Vaccination Effort across the city and country and having herd immunity by 70% to prevent the disease from spreading.
+The ultimate goal of the ministry of health is to end the pandemic as soon as possible. This can be achieved by a massive vaccination effort across the city and country and having herd immunity by 70% to prevent the disease from spreading.
   
 NYC is a large city and getting to vaccine spots may be hard or the spots are placed in mostly vaccinated areas which can lead can be less beneficial. 
 About 40% of New Yorkers use the subway on daily basis.
