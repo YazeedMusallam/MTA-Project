@@ -34,9 +34,54 @@ Sample size:
 > In the MTA dataset, the sample could be where the most crowded areas/subways and using the second dataset to verify where is the most crowded areas with the least amount of vaccinated people.
 >  four months (May to August) of both datasets will be used for the analysis.
 
-Desc for the datset as num of rows, number of features/columns, names of columns (desc):
+Description for the datset as num of rows, number of features/columns, names of columns with description:
+
+Description of MTA Dataset:
+Number of rows: Approx. 193631 row / day
+Number of features/columns: 11 features/columns
+Names of columns with description:
+Table
+
+Description of vaccine dataset:
+Number of rows: Approx. 177 row / day
+Number of features/columns: 13 features/columns
+Names of columns with description and type:
+
+| Syntax      | Description | Date Type   |
+| ----------- | ----------- | ----------- |
+| Header      | Title       | Date Type.  |
+| Paragraph   | Text        | Date Type   |
+
+#   Column                      Non-Null Count  Dtype  
+---  ------                      --------------  -----  
+ 0   DATE                        177 non-null    object 
+ 1   NEIGHBORHOOD_NAME           177 non-null    object 
+ 2   BOROUGH                     177 non-null    object 
+ 3   MODZCTA                     177 non-null    int64  
+ 4   Label                       177 non-null    object 
+ 5   AGE_GROUP                   177 non-null    object 
+ 6   POP_DENOMINATOR             177 non-null    float64
+ 7   COUNT_PARTIALLY_CUMULATIVE  177 non-null    int64  
+ 8   COUNT_FULLY_CUMULATIVE      177 non-null    int64  
+ 9   COUNT_1PLUS_CUMULATIVE      177 non-null    int64  
+ 10  PERC_PARTIALLY              177 non-null    float64
+ 11  PERC_FULLY                  177 non-null    float64
+ 12  PERC_1PLUS                  177 non-null    float64
+
 
 Type of columns:
+MTA Dataset has types of :
+ 0   C/A                                                                   580895 non-null  object
+ 1   UNIT                                                                  580895 non-null  object
+ 2   SCP                                                                   580895 non-null  object
+ 3   STATION                                                               580895 non-null  object
+ 4   LINENAME                                                              580895 non-null  object
+ 5   DIVISION                                                              580895 non-null  object
+ 6   DATE                                                                  580895 non-null  object
+ 7   TIME                                                                  580895 non-null  object
+ 8   DESC                                                                  580895 non-null  object
+ 9   ENTRIES                                                               580895 non-null  int64 
+ 10  EXITS                                                                 580895 non-null  int64
 
 #### Tools:
 * How do you intend to meet the tools requirement of the project? 
