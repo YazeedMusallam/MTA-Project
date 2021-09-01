@@ -6,7 +6,7 @@ About 40% of New Yorkers use the subway on daily basis.
 
 This project will make a consultation to the ministry of health about where should the vaccine spots should be placed near to most effective subway station.
 
-
+test
  
 #### Question/need:
 * What is the framing question of your analysis, or the purpose of the model/system you plan to build? 
