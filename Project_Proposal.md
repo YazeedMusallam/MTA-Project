@@ -1,40 +1,48 @@
 ## Back story of the project:
 The ultimate goal of the ministry of health is to end the pandemic as soon as possible. This can be achieved by a massive vaccination effort across the city and country and having herd immunity by 70% to prevent the disease from spreading.
   
-NYC is a large city and getting to vaccine spots may be hard or the spots are placed in mostly vaccinated areas which can lead can be less beneficial. 
+NYC is a large city and getting to vaccine spots may be hard or the spots are placed in mostly vaccinated areas which contrubute to end the panadmic slower. 
 About 40% of New Yorkers use the subway on daily basis.
 
-This project will make a consultation to the ministry of health about where should the vaccine spots should be placed near to most effective subway station.
+SDAIA propsed a solution to the ministry of health about where should the vaccine spots should be placed near to most effective subway station.
 
-test
- 
+## Background:
 #### Question/need:
-* What is the framing question of your analysis, or the purpose of the model/system you plan to build? 
- > The purpose of this analysis is to give insights into where the vaccine spots should be placed, which can contribute to a higher overall vaccination rate in a shorter time.
-
-* Who benefits from exploring this question or building this model/system?
-> This project is beneficial to the ministry of health to where should the vaccines spots placed to the most important subway station that could lead to faster herd immunity by analyzing and exploring the data to give insights.
+Company info: SDAIA
+#### Problem statement:
+Ministry of health unsure where to put the vaccine spots as NYC is a huge city, and the question arieses to where the most affactive spots could be with the limited budget.
+The NYC MTA subway are used in about 40% of new yorkers, putting a vaccine spot near every is infeasbile due to overbudget (NYC has about 500 subway stations).
+#### Value of the company and recommandations.
+> The purpose of this analysis is to give insights into where the vaccine spots should be placed near to the most effictive subway station to cut the costs and people can get vaccinanted on the way to work or home, which can contribute to a higher overall vaccination rate in a shorter time and achieve the herd immunity.
+> After doing exploratory data analysis on the data; SDAIA will give a recomandation to where the vaccine spots should be placed .
 
 #### Data Description:
-* What dataset(s) do you plan to use, and how will you obtain the data?
+* Datasets with description:
 This project based on the following datasets:
 
 >MTA Turnstile data located at http://web.mta.info/developers/turnstile.html.
+The NYC MTA Turnstile data has comulated number of entries and exits for each station in different date and time. 
 
->Public NYChealth Covid-19 vaccineS data and found at https://github.com/nychealth/covid-vaccine-data.
+>Public NYChealth COVID-19 vaccine data located at https://github.com/nychealth/covid-vaccine-data.
+The NYChealth COVID-19 vaccine data provides inforamtion about the vaccine percentage of each NYC district.
 
-* What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with? 
+#### Scope of the work
+Sample size:
 > In the MTA dataset, the sample could be where the most crowded areas/subways and using the second dataset to verify where is the most crowded areas with the least amount of vaccinated people.
-//* If modeling, what will you predict as your target?
+>  four months (May to August) of both datasets will be used for the analysis.
+Desc for the datset as num of rows, number of features/columns, names of columns (desc):
+
+type of columns:
 
 #### Tools:
 * How do you intend to meet the tools requirement of the project? 
-The main tools that will be used are:
+The main technologies and libraries that will be used are:
+> - Python
+> - SQL
+> - SQLite
+> Jupyter Notebook
 > - Pandas
 > - Matlibplot
 > - SQL
-
-* Are you planning in advance to need or use additional tools beyond those required?
 > During the project analysis, some additional tools may be used.
-#### MVP Goal:
-* What would a [minimum viable product (MVP)](./mvp.md) look like for this project?
+
