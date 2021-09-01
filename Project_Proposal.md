@@ -21,7 +21,7 @@ This project based on the following datasets:
 
 >MTA Turnstile data located at http://web.mta.info/developers/turnstile.html.
 
-Public NYChealth Covid-19 vaccineS data and found at https://github.com/nychealth/covid-vaccine-data.
+>Public NYChealth Covid-19 vaccineS data and found at https://github.com/nychealth/covid-vaccine-data.
 
 * What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with? 
 > In the MTA dataset, the sample could be where the most crowded areas/subways and using the second dataset to verify where is the most crowded areas with the least amount of vaccinated people.
