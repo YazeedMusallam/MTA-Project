@@ -19,7 +19,7 @@ SDAIA propsed a solution to the ministry of health about where should the vaccin
 > The purpose of this analysis is to give insights into where the vaccine spots should be placed near to the most effictive subway station to cut the costs and people can get vaccinanted on the way to work or home, which can contribute to a higher overall vaccination rate in a shorter time and achieve the herd immunity.
 > After doing exploratory data analysis on the data; SDAIA will give a recommendation to where the vaccine spots should be placed .
 
-#### Data Description:
+## Data Description:
 * Datasets with description:
 This project based on the following datasets:
 
@@ -32,7 +32,7 @@ The NYChealth COVID-19 vaccine data provides inforamtion about the vaccine perce
 > MTA stations mapped to zipcodes dataset https://raw.githubusercontent.com/mvossbrinck/Metis_Project_1/04ab49df77000076e74e0ef90246bdbe2ac92775/female_male_ratio_subway_mapping.csv by github user: mvossbrinck
 > This CSV file maps each station with it's corrsponding zip code.
 
-#### Scope of the work
+## Scope of the work
 Sample size:
 > In the MTA dataset, the sample could be where the most crowded areas/subways and using the second dataset to verify where is the most crowded areas with the least amount of vaccinated people.
 >  four months (May to August) of both datasets will be used for the analysis.
@@ -99,7 +99,7 @@ Description of station zip codes dataset:
 
 
 
-#### Tools:
+## Tools:
 * How do you intend to meet the tools requirement of the project? 
 The main technologies and libraries that will be used are:
 Technologies:
