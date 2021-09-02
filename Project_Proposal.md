@@ -29,6 +29,9 @@ The NYC MTA Turnstile data has cumulated number of entries and exits for each st
 > Public NYChealth COVID-19 vaccine data located at https://github.com/nychealth/covid-vaccine-data.
 The NYChealth COVID-19 vaccine data provides inforamtion about the vaccine percentage of each NYC district.
 
+> MTA stations mapped to zipcodes https://raw.githubusercontent.com/mvossbrinck/Metis_Project_1/04ab49df77000076e74e0ef90246bdbe2ac92775/female_male_ratio_subway_mapping.csv
+> This CSV file maps each station with it's corrsponding zip code
+
 #### Scope of the work
 Sample size:
 > In the MTA dataset, the sample could be where the most crowded areas/subways and using the second dataset to verify where is the most crowded areas with the least amount of vaccinated people.
