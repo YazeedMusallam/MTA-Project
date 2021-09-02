@@ -22,13 +22,13 @@ The Ministry of health asked SDAIA for recommendation using data science to wher
 * Datasets with description:
 This project based on the following datasets:
 
-> MTA Turnstile data located at http://web.mta.info/developers/turnstile.html.
+> MTA Turnstile data located at http://web.mta.info/developers/turnstile.html. <br />
 The NYC MTA Turnstile data has cumulated number of entries and exits for each station in different dates and time. 
 
-> Public NYChealth COVID-19 vaccine data located at https://github.com/nychealth/covid-vaccine-data.
+> Public NYChealth COVID-19 vaccine data located at https://github.com/nychealth/covid-vaccine-data. <br />
 The NYChealth COVID-19 vaccine data provides inforamtion about the vaccine percentage of each NYC district.
 
-> MTA stations mapped to zipcodes dataset https://raw.githubusercontent.com/mvossbrinck/Metis_Project_1/04ab49df77000076e74e0ef90246bdbe2ac92775/female_male_ratio_subway_mapping.csv by github user: mvossbrinck
+> MTA stations mapped to zipcodes dataset <br /> https://raw.githubusercontent.com/mvossbrinck/Metis_Project_1/04ab49df77000076e74e0ef90246bdbe2ac92775/female_male_ratio_subway_mapping.csv by github user: mvossbrinck
 > This CSV file maps each station with it's corrsponding zip code.
 
 ## Scope of the work
