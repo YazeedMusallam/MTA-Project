@@ -58,7 +58,7 @@ Names of columns with description:
 | ENTRIES      | The comulative entry register value for a device       | int64|
 | EXITS   | The cumulative exit register value for a device        | int64   |
 
-Description of vaccine dataset:
+Description of COVID-19 vaccine dataset:
 Number of rows: Approx. 177 row / day
 Number of features/columns: 13 features/columns
 Names of columns with description and type:
@@ -78,6 +78,16 @@ Names of columns with description and type:
 | PERC_PARTIALLY   | Percentage of partially vaccinated        | float64   |
 | PERC_FULLY   | Percentage of fully vaccinated        | float64   |
 | PERC_1PLUS   | Addition of the previous two percentages        | float64   |
+
+Description of station zip codes dataset:
+Number of rows: Approx. 315 row / day
+Number of features/columns: 2 features/columns
+Names of columns with description and type:
+
+| Columns     | Description | Data Type   |
+| ----------- | ----------- | ----------- |
+| Stop Name      | Represents the station name        | string  |
+| Zipcode   | Represent the the station zip code        | int64 |
 
 
 
