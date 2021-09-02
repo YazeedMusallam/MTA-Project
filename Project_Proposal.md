@@ -43,17 +43,31 @@ Description of MTA Dataset:
 Number of rows: Approx. 193631 row / day
 Number of features/columns: 11 features/columns
 Names of columns with description:
-Table
+
+| Columns     | Description | Date Type   |
+| ----------- | ----------- | ----------- |
+| Header      | Title       | Date Type.  |
+| Paragraph   | Text        | Date Type   |
 
 Description of vaccine dataset:
 Number of rows: Approx. 177 row / day
 Number of features/columns: 13 features/columns
 Names of columns with description and type:
 
-| Syntax      | Description | Date Type   |
+| Columns     | Description | Data Type   |
 | ----------- | ----------- | ----------- |
-| Header      | Title       | Date Type.  |
-| Paragraph   | Text        | Date Type   |
+| C/A      | Control Area       | object  |
+| UNIT   | Remote Unit for a station        | object|
+| SCP      | Subunit Channel Position represents an specific address for a device       | object  |
+| STATION   | Represents the station name the device is located at | object|
+| LINENAME      | Represents all train lines that can be boarded at this station       |object  |
+| DIVISION   | Represents the Line originally the station belonged to BMT, IRT, or IND        | object   |
+| DATE   | Represents the date (MM-DD-YY)        | object   |
+| TIME      | Represents the time (hh:mm:ss)     | object  |
+| DESC   | Represent the "REGULAR" scheduled audit event (Normally occurs every 4 hours)        | object   |
+| ENTRIES      | The comulative entry register value for a device       | int64|
+| EXITS   | The cumulative exit register value for a device        | int64   |
+
 
 #   Column                      Non-Null Count  Dtype  
 ---  ------                      --------------  -----  
