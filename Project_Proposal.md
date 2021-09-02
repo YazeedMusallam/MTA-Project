@@ -94,7 +94,7 @@ Description of station zip codes dataset:
 
 | Columns     | Description | Data Type   |
 | ----------- | ----------- | ----------- |
-| STOP NAME      | Represents the station name        | string  |
+| STOP NAME      | Represents the station name        | object  |
 | ZIPCODE   | Represent the the station zip code        | int64 |
 
 
