@@ -1,24 +1,23 @@
 ## Back story of the project:
-The ultimate goal of the ministry of health is to end the pandemic as soon as possible. This can be achieved by a massive vaccination effort across the city and country and having herd immunity by 70% to prevent the disease from spreading.
-  
-NYC is a large city and getting to vaccine spots may be hard or the spots are placed in mostly vaccinated areas which contrubute to end the panadmic in slower manner. 
-About 40% of New Yorkers use the subway on daily basis and focusing to get the people vaccinated who is going to work or home is a brilliant idea.
-Yet, ministry of health is unsure to where the vaccine spots should placed near to specific station.
+The goal of the ministry of health is to end the pandemic as soon as possible. This can be achieved by a massive vaccination effort across the city and country and having herd immunity by 70% to prevent the disease from spreading.
 
-Ministry of health asked SDAIA for recommandation using data science to where should spots be placed.
-SDAIA propsed a solution to the ministry of health about where should the vaccine spots should be placed near to most effective subway station.
+NYC is a large city and getting to vaccine spots may be hard or the spots are placed in mostly vaccinated areas which contribute to end the pandemic in slower manner. About 40% of New Yorkers use the subway daily and focusing to get the people vaccinated who are going to work or home is a brilliant idea. Yet, ministry of health is unsure of where the vaccine spots should placed near to specific station.
+
+The Ministry of health asked SDAIA for recommendation using data science to where should spots be placed. SDAIA proposed a solution to the ministry of health about where they should the vaccine spots should be placed near to most effective subway station.
+
 
 ## Background:
 #### Company info:
 > Saudi Authority for Data and Artificial Intelligence (SDAIA)
 
 #### Problem statement:
-> Ministry of health unsure where to put the vaccine spots as NYC is a huge city, and the question arieses to where the most affactive spots could be with the limited budget.
-> The NYC MTA subway are used in about 40% of new yorkers, putting a vaccine spot near everywhere is infeasbile due to overbudget (NYC has about 500 subway stations).
-#### Value of the company and recommandations.
-> The purpose of this analysis is to give insights into where the vaccine spots should be placed near to the most effictive subway station to cut the costs and people can get vaccinanted on the way to work or home, which can contribute to a higher overall vaccination rate in a shorter time and achieve the herd immunity.
-> After doing exploratory data analysis on the data; SDAIA will give a recommendation to where the vaccine spots should be placed .
+> the Ministry of health unsure where to put the vaccine spots as NYC is an enormous city, and the question arises to where the most effective spots could be with the limited budget.
 
+> The NYC MTA subway is used in about 40% of new yorkers, putting a vaccine spot near everywhere is infeasible due to over-budget (NYC has about 500 subway stations).
+#### Value of the company and recommendations.
+> The purpose of this analysis is to give insights into where the vaccine spots should be placed near to the most effective subway station to cut the costs and people can get vaccinated on the way to work or home, which can contribute to a higher overall vaccination rate in a shorter time and achieve the herd immunity.
+
+> After doing exploratory data analysis on the data; SDAIA will give a recommendation of where the vaccine spots should be placed.
 ## Data Description:
 * Datasets with description:
 This project based on the following datasets:
@@ -100,7 +99,6 @@ Description of station zip codes dataset:
 
 
 ## Tools:
-* How do you intend to meet the tools requirement of the project? 
 The main technologies and libraries that will be used are:
 Technologies:
 > - Python
