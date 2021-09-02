@@ -74,7 +74,7 @@ Description of COVID-19 vaccine dataset:
 | NEIGHBORHOOD_NAME   | Neighborhood Name        | object|
 | BOROUGH      | Administrative division  (i.e. Manhattan)     | object  |
 | MODZCTA   | Zip code | int64|
-| Label      | Multi zip codes       |object  |
+| LABEL      | Multi zip codes       |object  |
 | AGE_GROUP   | Category        | object   |
 | POP_DENOMINATOR   | Number of population in the area | float64   |
 | COUNT_PARTIALLY_CUMULATIVE      |   Cumulative number of at least had first dose   | int64  |
@@ -94,8 +94,8 @@ Description of station zip codes dataset:
 
 | Columns     | Description | Data Type   |
 | ----------- | ----------- | ----------- |
-| Stop Name      | Represents the station name        | string  |
-| Zipcode   | Represent the the station zip code        | int64 |
+| STOP NAME      | Represents the station name        | string  |
+| ZIPCODE   | Represent the the station zip code        | int64 |
 
 
 
