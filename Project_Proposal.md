@@ -1,11 +1,11 @@
 ## Back story of the project:
 The ultimate goal of the ministry of health is to end the pandemic as soon as possible. This can be achieved by a massive vaccination effort across the city and country and having herd immunity by 70% to prevent the disease from spreading.
   
-NYC is a large city and getting to vaccine spots may be hard or the spots are placed in mostly vaccinated areas which contrubute to end the panadmic slower manner. 
-About 40% of New Yorkers use the subway on daily basis and focusing to get the people who is going to work or home is brilliant idea.
+NYC is a large city and getting to vaccine spots may be hard or the spots are placed in mostly vaccinated areas which contrubute to end the panadmic in slower manner. 
+About 40% of New Yorkers use the subway on daily basis and focusing to get the people vaccinated who is going to work or home is a brilliant idea.
 Yet, ministry of health is unsure to where the vaccine spots should placed near to specific station.
 
-Ministry of health seeked to SDAIA for recommandation using data science to where should spots be placed.
+Ministry of health asked SDAIA for recommandation using data science to where should spots be placed.
 SDAIA propsed a solution to the ministry of health about where should the vaccine spots should be placed near to most effective subway station.
 
 ## Background:
@@ -29,8 +29,8 @@ The NYC MTA Turnstile data has cumulated number of entries and exits for each st
 > Public NYChealth COVID-19 vaccine data located at https://github.com/nychealth/covid-vaccine-data.
 The NYChealth COVID-19 vaccine data provides inforamtion about the vaccine percentage of each NYC district.
 
-> MTA stations mapped to zipcodes https://raw.githubusercontent.com/mvossbrinck/Metis_Project_1/04ab49df77000076e74e0ef90246bdbe2ac92775/female_male_ratio_subway_mapping.csv
-> This CSV file maps each station with it's corrsponding zip code
+> MTA stations mapped to zipcodes dataset https://raw.githubusercontent.com/mvossbrinck/Metis_Project_1/04ab49df77000076e74e0ef90246bdbe2ac92775/female_male_ratio_subway_mapping.csv by github user: mvossbrinck
+> This CSV file maps each station with it's corrsponding zip code.
 
 #### Scope of the work
 Sample size:
@@ -40,9 +40,12 @@ Sample size:
 Description for the datset as num of rows, number of features/columns, names of columns with description:
 
 Description of MTA Dataset:
-Number of rows: Approx. 193631 row / day
-Number of features/columns: 11 features/columns
-Names of columns with description:
+
+> Number of rows: Approx. 193631 row / day
+
+> Number of features/columns: 11 features/columns
+
+> Names of columns with description:
 
 | Columns     | Description | Data Type   |
 | ----------- | ----------- | ----------- |
@@ -59,9 +62,11 @@ Names of columns with description:
 | EXITS   | The cumulative exit register value for a device        | int64   |
 
 Description of COVID-19 vaccine dataset:
-Number of rows: Approx. 177 row / day
-Number of features/columns: 13 features/columns
-Names of columns with description and type:
+> Number of rows: Approx. 177 row / day
+ 
+> Number of features/columns: 13 features/columns
+
+> Names of columns with description and type:
 
 | Columns     | Description | Data Type   |
 | ----------- | ----------- | ----------- |
@@ -80,9 +85,12 @@ Names of columns with description and type:
 | PERC_1PLUS   | Addition of the previous two percentages        | float64   |
 
 Description of station zip codes dataset:
-Number of rows: Approx. 315 row / day
-Number of features/columns: 2 features/columns
-Names of columns with description and type:
+
+> Number of rows: Approx. 315 row / day
+
+> Number of features/columns: 2 features/columns
+
+> Names of columns with description and type:
 
 | Columns     | Description | Data Type   |
 | ----------- | ----------- | ----------- |
