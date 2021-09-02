@@ -34,7 +34,7 @@ The NYChealth COVID-19 vaccine data provides inforamtion about the vaccine perce
 ## Scope of the work
 Sample size:
 > In the MTA dataset, the sample could be where the most crowded areas/subways and using the second dataset to verify where is the most crowded areas with the least amount of vaccinated people.
->  four months (May to August) of both datasets will be used for the analysis.
+>  four months (May to August) of both datasets will be used for the analysis, and the reason is NYC started massive vaccine distrubution in the previous four months.
 
 Description for the datset as num of rows, number of features/columns, names of columns with description:
 
