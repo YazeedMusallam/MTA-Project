@@ -18,4 +18,4 @@
 ![image](https://raw.githubusercontent.com/YazeedMusallam/MTA-Project/main/images/barplotentries.png)
 ![image](https://raw.githubusercontent.com/YazeedMusallam/MTA-Project/main/images/barplotvacc.png)
 > The above two figures show stations with number of entries and number of unvaccinated people with area of people fully vaccinated less than 65%.
-Also, this conclude the stations in the above figure is the most unsafe areas to commute.
+Also, this conclude the stations in the above figure is the most unsafe subways to commute with.
