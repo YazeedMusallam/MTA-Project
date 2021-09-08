@@ -11,7 +11,7 @@ The ministry of health asked NYC Data Science company for recommendation using d
 > NYC Data Science company, for data science consultation.
 
 #### Problem statement:
-> the Ministry of health unsure where to put the vaccine spots as NYC is an enormous city, and the question arises to where the most effective spots could be with the limited budget.
+> The ministry of health unsure where to put the vaccine spots as NYC is an enormous city, and the question arises to where the most effective spots could be with the limited budget.
 
 > The NYC MTA subway is used in about 40% of new yorkers, putting a vaccine spot near everywhere is infeasible due to over-budget (NYC has about 500 subway stations).
 #### Value of the company and recommendations.
