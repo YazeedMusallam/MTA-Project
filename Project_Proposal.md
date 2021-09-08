@@ -110,7 +110,12 @@ Libraries:
 > - Pandas
 > - Matlibplot
 > - SQL
+> - Seaborn
+> - SQLAlchemy 
+> - NumPy
 
+Processing tools: 
+> Google Colab
 Note:
 > During the project analysis, some additional tools may be used.
 
