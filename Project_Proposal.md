@@ -40,7 +40,7 @@ Description for the datset as num of rows, number of features/columns, names of 
 
 Description of MTA Dataset:
 
-> Number of rows: Approx. 193631 row / day
+> Number of rows: Approx. 3M rows
 
 > Number of features/columns: 11 features/columns
 
