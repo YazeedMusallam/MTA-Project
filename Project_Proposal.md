@@ -3,12 +3,12 @@ The goal of the ministry of health is to end the pandemic as soon as possible. T
 
 NYC is a large city and getting to vaccine spots may be hard or the spots are placed in mostly vaccinated areas which contribute to end the pandemic in slower manner. About 40% of New Yorkers use the subway daily and focusing to get the people vaccinated who are going to work or home is a brilliant idea. Yet, ministry of health is unsure of where the vaccine spots should placed near to specific station.
 
-The Ministry of health asked SDAIA for recommendation using data science to where should spots be placed. SDAIA proposed a solution to the ministry of health about where they should the vaccine spots should be placed near to most effective subway station.
+The ministry of health asked NYC Data Science company for recommendation using data science to where should spots be placed. NYC Data Science proposed a solution to the ministry of health about where they should the vaccine spots should be placed near to most effective subway station.
 
 
 ## Background:
 #### Company info:
-> Saudi Authority for Data and Artificial Intelligence (SDAIA)
+> NYC Data Science company, for data science consultation.
 
 #### Problem statement:
 > the Ministry of health unsure where to put the vaccine spots as NYC is an enormous city, and the question arises to where the most effective spots could be with the limited budget.
@@ -17,18 +17,18 @@ The Ministry of health asked SDAIA for recommendation using data science to wher
 #### Value of the company and recommendations.
 > The purpose of this analysis is to give insights into where the vaccine spots should be placed near to the most effective subway station to cut the costs and people can get vaccinated on the way to work or home, which can contribute to a higher overall vaccination rate in a shorter time and achieve the herd immunity.
 
-> After doing exploratory data analysis on the data; SDAIA will give a recommendation of where the vaccine spots should be placed.
+> After doing exploratory data analysis on the data; NYC Data Science will give a recommendation of where the vaccine spots should be placed.
 ## Data Description:
 * Datasets with description:
 This project based on the following datasets:
 
-> MTA Turnstile data located at http://web.mta.info/developers/turnstile.html. <br />
+> MTA Turnstile dataset located at http://web.mta.info/developers/turnstile.html. <br />
 The NYC MTA Turnstile data has cumulated number of entries and exits for each station in different dates and time. 
 
-> Public NYChealth COVID-19 vaccine data located at https://github.com/nychealth/covid-vaccine-data. <br />
+> Public NYChealth COVID-19 vaccine dataset located at https://github.com/nychealth/covid-vaccine-data. <br />
 The NYChealth COVID-19 vaccine data provides inforamtion about the vaccine percentage of each NYC district.
 
-> MTA stations mapped to zipcodes dataset <br /> https://raw.githubusercontent.com/mvossbrinck/Metis_Project_1/04ab49df77000076e74e0ef90246bdbe2ac92775/female_male_ratio_subway_mapping.csv by github user: mvossbrinck
+> MTA stations mapped to zipcodes dataset <br /> https://raw.githubusercontent.com/nychealth/covid-vaccine-data/main/people/coverage-by-modzcta-allages.csv
 > This CSV file maps each station with it's corrsponding zip code.
 
 ## Scope of the work
@@ -93,7 +93,7 @@ Description of station zip codes dataset:
 
 | Columns     | Description | Data Type   |
 | ----------- | ----------- | ----------- |
-| STOP NAME      | Represents the station name        | object  |
+| STATION NAME      | Represents the station name        | object  |
 | ZIPCODE   | Represent the the station zip code        | int64 |
 
 
