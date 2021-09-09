@@ -82,6 +82,7 @@ Description of station zip codes dataset:
 > 1) Checking no nulls
 > 2) Checking no duplicates
 > 3) Fixing turnstiles issue such as (reverse counter, zero counter turnstile, overshooting counter turnstile)
+
 *Methodology of exploring the data*:
 >	1)	Each subway station was mapped to percentage of fully vaccinated in that region, the analysis was done on only the subway stations areas with less than 65% fully vaccinated, filtering only to the busiest stations.
 >	2)	Different analysis was implemented to answer the following questions in crowded stations with vaccination percentage less than 65%: 
