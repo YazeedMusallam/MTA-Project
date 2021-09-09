@@ -2,8 +2,7 @@
 Yazeed Musallam
 
 ## Abstract
-The goal of the ministry of health is to end the pandemic as soon as possible. This can be achieved by a massive vaccination effort across the city and country and having herd immunity by 70% to prevent the disease from spreading.
-The primary goal of this project is to analyse where should the vaccination center be placed at, placing near to the NYC MTA subways is a great idea because 40% percent of NYC population uses the subway. I worked with MTA official data analyzing where should the vaccination center be placed at.
+The goal of the ministry of health is to end the pandemic as soon as possible. This can be achieved by a massive vaccination effort across the city and country and having herd immunity by 70% to prevent the disease from spreading. The primary goal of this project is to analyze where should the vaccination center be placed at, placing near to the NYC MTA subways is a great idea because 40% percent of NYC population uses the subway. I worked with MTA official data analyzing where should the vaccination center be placed at.
 ## Design
 The ministry of health unsure where to put the vaccine spots as NYC is an enormous city, and the question arises to where the most effective spots could be with the limited budget.
 The purpose of this analysis is to give insights into where the vaccine spots should be placed near to the most effective subway station to cut the costs and people can get vaccinated on the way to work or home, which can contribute to a higher overall vaccination rate in a shorter time and achieve the herd immunity.
@@ -80,9 +79,9 @@ Description of station zip codes dataset:
 > 2) Dealing with outliers
 
 *Data validation*:
-> 1) checking no nulls
-> 2) checking no duplicates
-
+> 1) Checking no nulls
+> 2) Checking no duplicates
+> 3) Fixing turnstiles issue such as (reverse counter, zero counter turnstile, overshooting counter turnstile)
 *Methodology of exploring the data*:
 >	1)	Each subway station was mapped to percentage of fully vaccinated in that region, the analysis was done on only the subway stations areas with less than 65% fully vaccinated, filtering only to the busiest stations.
 >	2)	Different analysis was implemented to answer the following questions in crowded stations with vaccination percentage less than 65%: 
@@ -118,3 +117,4 @@ Findings:
 Slides are avaliable at:
 </br>
 https://github.com/YazeedMusallam/MTA-Project/blob/main/COVID-19%20VACCINE%20CENTERS%20SLIDES.pdf
+<img src="https://raw.githubusercontent.com/YazeedMusallam/MTA-Project/main/images/slides.png" width=500>
